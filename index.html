@@ -9,9 +9,10 @@
 <body>
 <div ng-controller="charCtrl">
 <h3><br>AngularJs counting a character </h3></br>
-Enter String:<input type="text" ng-model="name" />
-<button class="btn-primary" type="submit"  ng-click="charCount(name)">click</button>
-<br/><h4/>String  count is:{{count}} 
+Enter String:<input type="text" ng-model="string" />
+<button class="btn-primary" type="submit"  ng-click="charCount(string)">click</button>
+<!--<br/><h4/><div ng-repeat=" output in str track by $index"> {{output}}</div>-->
+<br/><h4/>String  count is:{{ obj }} 
 
 
 </body>
